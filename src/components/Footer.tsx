@@ -114,14 +114,9 @@ const Footer = () => {
               <Link to="/contact" className="block hover:text-primary transition-colors">
                 Contact
               </Link>
-              <a 
-                href="https://salescentri.com/trust/security-privacy" 
-                target="_blank" 
-                rel="noopener noreferrer"
-                className="block hover:text-primary transition-colors"
-              >
+              <Link to="/privacy-policy" className="hover:text-primary transition-colors">
                 Privacy Policy
-              </a>
+              </Link>
             </div>
           </div>
         </div>
